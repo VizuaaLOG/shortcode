@@ -1,5 +1,5 @@
 <?php
-namespace Pingpong\Shortcode;
+namespace VizuaaLOG\Shortcode;
 
 use Countable;
 use Thunder\Shortcode\HandlerContainer\HandlerContainer;

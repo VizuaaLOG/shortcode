@@ -1,6 +1,6 @@
 <?php
 
-namespace Pingpong\Shortcode;
+namespace VizuaaLOG\Shortcode;
 
 use Illuminate\Support\Facades\Facade;
 

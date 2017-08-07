@@ -1,5 +1,5 @@
 {
-    "name": "pingpong/shortcode",
+    "name": "vizuaalog/shortcode",
     "description": "Laravel - Simple shortcode based on wordpress shortcode",
     "keywords": [
         "pingpong",
@@ -27,7 +27,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Pingpong\\Shortcode\\": ""
+            "VizuaaLOG\\Shortcode\\": ""
         }
     },
     "minimum-stability": "stable"

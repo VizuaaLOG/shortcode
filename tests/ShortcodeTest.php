@@ -1,7 +1,7 @@
 <?php
-namespace Pingpong\Shortcode\Tests;
+namespace VizuaaLOG\Shortcode\Tests;
 
-use Pingpong\Shortcode\Shortcode;
+use VizuaaLOG\Shortcode\Shortcode;
 use Thunder\Shortcode\HandlerContainer\HandlerContainer;
 use Thunder\Shortcode\Parser\RegexParser;
 use Thunder\Shortcode\Processor\Processor;
@@ -77,13 +77,13 @@ class ShortcodeTest extends \PHPUnit_Framework_TestCase
     {
         $shortcode = new Shortcode();
 
-        $shortcode->register('name', function(ShortcodeInterface $s) {
+        $shortcode->register('name', function (ShortcodeInterface $s) {
             return $s->getName();
         });
-        $shortcode->register('content', function(ShortcodeInterface $s) {
+        $shortcode->register('content', function (ShortcodeInterface $s) {
             return $s->getContent();
         });
-        $shortcode->register('nc', function(ShortcodeInterface $s) {
+        $shortcode->register('nc', function (ShortcodeInterface $s) {
             return $s->getName().': '.$s->getContent();
         });
 
